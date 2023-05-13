@@ -1,0 +1,34 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner leia = new Scanner (System.in);
+		
+		double numero1;
+		double numero2;
+		
+		
+		System.out.print("Qual o número 1? ");	
+		numero1 = leia.nextInt();
+		System.out.print("Qual o número 2? ");
+		numero2 = leia.nextInt();
+		
+		
+		
+		double resultado = numero1 + numero2;
+		
+		System.out.println("O resultado é o: " + resultado);
+		
+		
+		
+		leia.close();
+		
+		
+	}
+
+}

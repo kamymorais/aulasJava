@@ -1,0 +1,23 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner graus = new Scanner (System.in);
+		
+		double grausF ;
+		System.out.print("Temperatura em Fahrenheit: ");
+		
+		grausF = graus.nextDouble();
+		
+		
+		
+		graus.close();
+		
+	}
+
+}

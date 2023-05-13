@@ -1,0 +1,28 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String nome;
+		String sobrenome;
+		
+		Scanner bemVindo = new Scanner (System.in);
+		
+		System.out.print("Qual o seu nome? ");
+		nome = bemVindo.nextLine();
+		
+		System.out.print("Qual o seu sobrenome? ");
+		sobrenome = bemVindo.nextLine();
+		
+		System.out.print("Bem vindo " + sobrenome + nome);
+		
+		bemVindo.close();
+		
+		
+	}
+
+}
