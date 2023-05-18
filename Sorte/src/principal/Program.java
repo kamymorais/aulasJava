@@ -23,13 +23,13 @@ public class Program {
 		
 		if (num1 == num2 && num1 == num3 && num2 == num3) {
 		bonus = 6;
-		System.out.println("Bônus: " + bonus);
+		System.out.println("Bônus: " + bonus + "... que sortudo!!");
 		}
 		
 		else if (num1 == num2 || num1 == num3 || num2 == num3) {
 		bonus = 2;
 		
-		System.out.println("Bônus "+ bonus + " Você é muito sortudo");
+		System.out.println("Bônus "+ bonus );
         }
 		
 		int ptosfinal = (soma + bonus);
