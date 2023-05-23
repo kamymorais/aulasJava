@@ -60,6 +60,7 @@ public class Program {
 	//do while, garante que sera executado o bloco de codigos ao menos 1 vez
 	
 	int k = 0;
+	
 	do {
 		
 		System.out.print("Deseja continuar? ");
@@ -76,10 +77,7 @@ public class Program {
 	sc.close();
 		
 	}
-	
-	
-	
-		
+			
 	}
 	
 
