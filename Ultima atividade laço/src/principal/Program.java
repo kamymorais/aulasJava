@@ -27,8 +27,8 @@ public class Program {
 	    
 	    switch (tipo){
 	    case '-':
-	    for (int contador = 1 ; contador <11; contador ++) {
-	    System.out.println(num + " - " + contador + " = " + (num-contador));
+	    for (int contador = num+1 ; contador <= num + 10; contador ++) {
+	    System.out.println(contador + " - " + num + " = " + (contador-num));
 	    }
 	    break;
 	    }
@@ -42,9 +42,10 @@ public class Program {
 	    }
 	    
 	    switch (tipo){
+	    
 	    case '/':
-	    for (double contador = 1 ; contador <11; contador ++) {
-	    System.out.println(num + " / " + contador + " = " + (num/contador));
+	    for (double contador = num ; contador <= num*10; contador+= num) {
+	    System.out.println(contador + " / " + num + " = " + (contador/num));
 	    }
 	    break;
 	    }
