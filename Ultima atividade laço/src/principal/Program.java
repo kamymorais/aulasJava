@@ -48,7 +48,13 @@ public class Program {
 	    System.out.println(contador + " / " + num + " = " + (contador/num));
 	    }
 	    break;
+	    
+	    default:
+			System.out.print("Tipo de operação não encontrada!!");
+			break;
 	    }
+	    
+	 
 	    
 	    sc.close();
         
