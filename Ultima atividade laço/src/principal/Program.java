@@ -9,13 +9,17 @@ public class Program {
 
 		char tipo ;
 		int num ;
+		
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.print("Qual o tipo de operação? ");
-		tipo = sc.next().charAt(0);
+			System.out.print("Qual o tipo de operação? ");
+			tipo = sc.next().charAt(0);
 		
-		System.out.print("Qual o número? ");
-	    num = sc.nextInt();
+			System.out.print("Qual o número? ");
+			num = sc.nextInt();
+	    
+	    sc.close();
+	    
 	    
 	    switch (tipo){
 	    	case '+':
@@ -46,10 +50,10 @@ public class Program {
 	    default:
 	    	System.out.print("Tipo de operação não encontrada!!");
 		break;
-	    
-	      
+	    	      
 		}
-	    sc.close();
+	    
+	
 	}
 
 }
