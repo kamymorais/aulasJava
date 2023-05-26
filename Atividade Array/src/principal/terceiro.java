@@ -18,7 +18,7 @@ public class terceiro {
 			System.out.println("Aluno " + "número: " + (i+1));
 		}
 		
-	System.out.println("O vencedor é o aluno " + numeroSorte);
+	System.out.println("O vencedor é o aluno com o número " + numeroSorte);
 		
 	
 
