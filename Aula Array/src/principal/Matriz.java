@@ -14,12 +14,31 @@ public class Matriz {
 				contador++;
 				
 			}
+			System.out.println();
+						
+		}
+		
+  System.out.println();
+		for (int a = 0 ; a < numeros.length ; a ++) {
+			for(int b = 0 ; b < numeros.length ; b ++) {
 			
+				
+				if (numeros[a].equals(numeros [b])) {
+					System.out.println(numeros [a][b]);
+					
+						
+				}
+				else  {
+					
+					System.out.print("\t");
+				}
+				
+				
+			}
 			System.out.println();
 		}
-		System.out.println();
 		
-		System.out.println("1       " + "5       " + "9");	
+		
 	}
 
 }
