@@ -12,7 +12,6 @@ public class Atividade1 {
 		String para = ""; 
 		double euro = 5.40 ;
 		double dolar = 5.04 ;
-		double real = 0;
 		double valor = 0;
 		double resultado = 0 ;
 		
