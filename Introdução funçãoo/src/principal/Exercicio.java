@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Exercicio {
 
 	
-	static String ganhador () {
+	    static String ganhador () {
 		Random random = new Random ();
 		Scanner sc = new Scanner (System.in);
 		int numeroSorteado = random.nextInt(11);
@@ -14,7 +14,7 @@ public class Exercicio {
 		String [] nomes = new String [10];
 		
 		
-		for (int i = 0; i < nomes.length ; i ++) {s
+		for (int i = 0; i < nomes.length ; i ++) {
 			System.out.print("Candidato: ");
 			nomes [i] = sc.nextLine();
 		
@@ -24,8 +24,7 @@ public class Exercicio {
 		
 		return "O ganhador foi " + nomes [numeroSorteado];
 		
-		
-		
+				
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
